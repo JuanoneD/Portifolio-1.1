@@ -1,7 +1,18 @@
-body{
-    margin: 0px;
-    padding: 0;
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
 }
+
+.mainPort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header,footer{
     display: flex;
     background-color: rgb(5, 4, 4);
@@ -9,152 +20,56 @@ header,footer{
     padding: 1%;
     color: white;
     z-index: 2;
+    flex-wrap: wrap;
 }
-#rightHeader{
+
+.rightHeader{
     display: flex;
     align-items: center;
-    height: 50px;
+    flex-wrap: wrap;
 }
-#leftHeader{
+.leftHeader{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
+
 .buttonHeader{
     display: flex;
-    height: 100%;
     margin-left: 5%;
     padding: 1%;
-    align-items: center;
-    text-align: center;
 }
+
 .buttonHeader a{
     text-decoration: none;
     color: white;
 }
-.Titles{
-    text-align: center;
-    margin: 1%;
-    padding: 1%;
-}
-#aboutMe{
-    margin: 1%;
-    display: flex;
-    padding: 1%;
-}
-#ImgaboutMe img{
-    width: 40vh;
-    height: 40vh;
-}
-#TextaboutMe{
+
+.TextaboutMe{
     text-align: left;
     text-justify: auto;
     padding: 1%;
 }
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
+
+
+@media (width<= 900px) {
+    .leftHeader{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    header{
+        height: auto;
+    }
+    .aboutMe{
+        flex-wrap: wrap;
+    }
 }
-.roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 30px;
-}
-#AcademySkills{
-    margin-top: 5%;
-    display: flex;
-    padding: 1%;
-    justify-content: center;
-}
-#Academic{
-    width: 50%;
-    margin: 2%;
-}
-#AcademySkills .roboto-bold-italic{
-    font-size: 25px;
-}
-#AcademySkills .roboto-regular{
-    font-size: 19px;
-}
-#Academic summary {
-    padding: 4px;
-    box-shadow: 1px 1px 2px #bbbbbb;
-    cursor: pointer;
-}
-#DisplayProjects{
-    margin: 2%;
-    padding: 1%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.Project{
-    margin: 1%;
-    border-radius: 30px;
-    /* width: 525px;
-    height: 525px; */
-    width: 50vh;
-    border: solid;
-    display: flex;
-    flex-direction: column;
-}
-.Project a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-}
-.Project img{
-    width: 100%;
-    height: 40%;
-    border-top-left-radius: 26px;
-    border-top-right-radius: 26px;
-}
-.Project .roboto-bold-italic{
-    font-size: 30px;
-}
-.Project  .roboto-regular{
-    font-size: 15px;
-}
-.textProject{
-    text-align: justify;
-    padding: 1%;
-    margin: 1%;
-    display: flex;
-    flex-direction: column;
-    height: 70%;
-    justify-content: space-around;
-}
-.Project button{
-    cursor: pointer; 
-    padding: 2%;
-    background-color: black;
-    color: white;
-    border-radius: 25px;
-}
-footer img{
-    height: 50px;
-}
-footer #leftfooter{
-    display: flex;
-}
-footer #rigthfooter{
-    display: flex;
-    align-items: center;
-}
-footer .Contact{
-    margin: 1%;
-    padding: 1%;
-    align-items: center;
-}
-footer .roboto-regular{
-    font-size: 15px;
-}
-html{
-   scroll-behavior: smooth; 
-}
-#Skills{
-    margin: 1%;
-    padding: 1%;
+
+@media (width <= 400px){
+    .buttonHeader{
+        width: 100%;
+        background-color: blue;
+        text-align: center;
+    }
 }
