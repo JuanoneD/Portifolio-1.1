@@ -89,6 +89,67 @@ function App() {
             </div>  
         </div>
       </div>
+      <div className={style.mainPort}>
+        <div>
+        <div class="TitlesH1"  id="DisplayProjects">Projetos</div>
+        <div id="DisplayProjects">
+            <div class="Project">
+                <img src="https://www.ufsm.br/app/uploads/sites/791/2020/09/aplicacoesC3.jpg" alt=""/>
+                <div class="textProject roboto-regular">
+                    <div class="TitlesH2">Projeto de Estruturas de Dados</div>
+                    <p>Projeto Com o Objetivo de fazer um Grafo, Com as informaçãoes do IMDB
+                    O projeto foi feito na linguagem C, os filmes são salvos em array e suas arestas são feitas com listas encadiadas, as arestas são feitas por filmes que compartilham os mesmos atores. 
+                    As principais abilidades desenvolvidas nesse projeto foi a criação de arrays dinamicos,listas encadiadas e dificuldade de manipular uma grande quantia de dados</p>
+                    <a href="https://github.com/JuanoneD/Data-Structure-Project"><button class="roboto-regular">Detalhes</button></a>
+                </div>
+            </div>
+            <div class="Project">
+                <img src="https://media.licdn.com/dms/image/C4D12AQGrUMcxXVT_Uw/article-cover_image-shrink_600_2000/0/1576852745904?e=2147483647&v=beta&t=ORE4OIh_3puAkg6sItmAyRQxuGp3FbPOV_bcjCfEXxk" alt=""/>
+                <div class="textProject roboto-regular">
+                    <div class="TitlesH2">Greenhill Collections</div>
+                    <p>Este projeto foi desenvolvido em Java com o objetivo de criar e implementar diversas estruturas de dados, incluindo Hash, lista encadeada, array dinâmico, fila e pilha, além de construir iteradores para essas estruturas e utilizar Streams. Durante o desenvolvimento, aperfeiçoei minhas habilidades em Java e trabalho em equipe, e também adquiri um entendimento mais profundo sobre iteração e Streams.</p>
+                    <a href="https://github.com/JuanoneD/Java/tree/main/05/dia_16/greenhill/collections"><button class="roboto-regular">Detalhes</button></a>
+                </div>
+            </div>
+            <div class="Project">
+                <img src="https://idocode.com.br/wp-content/uploads/2020/04/aprender-programar-linguagem-c.jpg" alt=""/>
+                <div class="textProject roboto-regular">
+                    <div class="TitlesH2">Sistema Gestao Empresa</div>
+                    <p>Projeto realizado na materia logica de programação no Senai, Feito em grupo, em C  com intuido de fazer um sistema para gerenciar finanças e estoque de uma empresa<br/>
+                        O base para o projeto foi um problema real de um pequena empresa e para o desenvolvimento do projeto foi um trabalhado onde melhorei minhas habilidades de trabalhar em grupo e as ferramentas que o git apresenta para fazer trabalhos em grupo
+                    </p>
+                    <a href="https://github.com/JuanoneD/Sistema_Gestao_Empresa.git"><button class="roboto-regular">Detalhes</button></a>
+                </div>
+            </div>
+            <div class="Project">
+                <img src="https://www.investopedia.com/thmb/C7s8G-f9rvaIji0H6JqZgbBNQVo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/assemblylanguage-356836be12ae4723bbbd8e3b6e543b9f.JPG" alt=""/>
+                <div class="textProject roboto-regular">
+                    <div class="TitlesH2">Simulando comandos em Assembly com C</div>
+                    <p>Projeto realizado na materia de Arquitetura de computadores no Faculdade, Feito em C, onde o objetivo era de desmostrar como um processador funciona quando é envia um instrução<br/>
+                    Para realizar o trabalho foi necessario um conhecimento amplo sobre o funcionamento de um processador, como as instruções são traduzidas, e como funciona o a linguagem Assembly Mips
+                    </p>
+                    <a href="https://github.com/JuanoneD/Assembly_commands_on_C.git"><button class="roboto-regular">Detalhes</button></a>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+      <footer>
+        <div id="rigthfooter">
+            <img src="https://cdn-icons-png.flaticon.com/512/7083/7083836.png" alt=""/>
+            <div class="Contact">
+                <p class="roboto-regular">JuanDiego.jd42@gmail.com</p>
+            </div>
+        </div>
+        <div id="leftfooter">
+            <div class="Contact">
+                <a href="https://br.linkedin.com/"><img src="https://www.gov.br/observatorio/en/academic-programs/graduate-program-in-geophysics/images/linkedin.png" alt=""/></a>
+            </div>
+            <div class="Contact">
+                <a href="https://github.com/JuanoneD"><img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU=w600-h300-pc0xffffff-pd" alt=""/></a>
+            </div>
+        </div>
+    </footer>
     </>
   )
 }

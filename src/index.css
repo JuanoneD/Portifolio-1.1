@@ -37,7 +37,7 @@ body{
 
 #Academic summary {
     padding: 4px;
-    box-shadow: 1px 1px 2px #bbbbbb;
+    box-shadow: var(--Shadow2);
     cursor: pointer;
 }
 #DisplayProjects{
@@ -52,7 +52,7 @@ body{
     border-radius: 30px;
     /* width: 525px;
     height: 525px; */
-    width: 50vh;
+    width: 40vh;
     border: solid;
     display: flex;
     flex-direction: column;
