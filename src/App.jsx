@@ -30,9 +30,10 @@ function App() {
             </div>
         </div>
       </div>
-        <div id="AcademySkills">
+      <div className={style.mainPort}>
+        <div className={style.aboutMe} id="AcademySkills">
           <div id="Academic">
-              <div class="Titles roboto-bold-italic">Formação Academica</div>
+              <div class="TitlesH2">Formação Academica</div>
               <details class="roboto-regular" open>
                   <summary>Cursando Ciência da Computação</summary>
                   <p>Início: 2023 | Conclusão prevista: 2027</p>
@@ -58,7 +59,7 @@ function App() {
               </details>
           </div>
           <div id="Skills">
-                <div class="Titles roboto-bold-italic">Competencias</div>
+                <div class="TitlesH2">Competencias</div>
                 <ul class="roboto-regular">
                     <li>
                         linguagens de programação:
@@ -87,6 +88,7 @@ function App() {
                 </ul>
             </div>  
         </div>
+      </div>
     </>
   )
 }

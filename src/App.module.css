@@ -51,6 +51,12 @@ header,footer{
     padding: 1%;
 }
 
+@media (width<= 1300px){
+    .aboutMe{
+        width: 80%;
+    }
+}
+
 
 @media (width<= 900px) {
     .leftHeader{
@@ -63,6 +69,7 @@ header,footer{
     }
     .aboutMe{
         flex-wrap: wrap;
+        width: 90%;
     }
 }
 
