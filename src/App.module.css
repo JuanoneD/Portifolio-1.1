@@ -69,7 +69,7 @@ header,footer{
 @media (width <= 400px){
     .buttonHeader{
         width: 100%;
-        background-color: blue;
-        text-align: center;
+        display: flex;
+        
     }
 }
