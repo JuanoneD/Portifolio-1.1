@@ -1,9 +1,26 @@
 import style from '../src/App.module.css'
-
+import { useState } from 'react';
 
 function App() {
+  const defaultPhoneNumber = '5541991311559'
+  const [message, setmessage] = useState('')
+
+  const handleChange = (e) => {
+    const {value} = e.target;
+    setmessage(value);
+  }
+
+  const handleWhatsAppMessage = () => {
+    
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=${defaultPhoneNumber}&text=
+    Mensagem:%20${message}`;
+
+    window.open(whatsappUrl, '_blank');
+  }
+
   return (
     <>
+
       <header>
         <div className={style.rightHeader}>
           <p class="TitlesH1">Portifolio</p>
@@ -134,6 +151,17 @@ function App() {
         </div>
         </div>
       </div>
+
+      <div className={style.mainPort}>
+        <div class="TitlesH2">
+        <label htmlFor="message">Mensagem</label>
+        <textarea id='message' name='message' value={message} onChange={handleChange} required style={{width:'100%'}}></textarea>
+        <button onClick={handleWhatsAppMessage} className={style.button}>Enviar mensagem</button>
+
+        </div>
+      </div>
+
+
       <footer>
         <div id="rigthfooter">
             <img src="https://cdn-icons-png.flaticon.com/512/7083/7083836.png" alt=""/>

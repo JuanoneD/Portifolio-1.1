@@ -1,6 +1,7 @@
 :root {
 --batata: #090909;
 --Shadow2: 1px 1px 2px #bbbbbb;
+--buttonColor: #042e68;
 }
 *{
     font-family: "Inria Sans", sans-serif;
