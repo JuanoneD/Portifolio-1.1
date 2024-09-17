@@ -180,6 +180,7 @@ function App() {
             </div>
         </div>
     </footer>
+    <SpeedInsights />
     </>
   )
 }
