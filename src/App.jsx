@@ -1,6 +1,5 @@
 import style from '../src/App.module.css'
 import { useState } from 'react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 function App() {
@@ -180,7 +179,6 @@ function App() {
             </div>
         </div>
     </footer>
-    <SpeedInsights />
     </>
   )
 }
