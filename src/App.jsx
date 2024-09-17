@@ -1,5 +1,7 @@
 import style from '../src/App.module.css'
 import { useState } from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 function App() {
   const defaultPhoneNumber = '5541991311559'
